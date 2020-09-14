@@ -606,3 +606,81 @@ padding-top: 10px;}
 }
 
 
+/* Responsive */
+
+/* less than 991px */
+@media (max-width: 1201px){
+    .home {
+        
+        width: 101%;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .about {
+        width: 101%;
+    }
+.service {
+    width: 100%;
+padding: 10px;
+}
+.content .right-cont .head{
+    width: 400px;
+padding: 10px;
+
+}
+}
+
+/* less than of equal 767px */
+
+@media (max-width: 767px){
+
+}
+
+/* less than 551px */
+
+@media (max-width: 551px){
+    .home {
+        width: 220%;
+        height: 100%;
+    }
+    .home h1 {
+        font-size: 35px;
+    }
+    .about .content{
+        flex-wrap: wrap;
+        width: 220%;
+   }
+   .about .content .box {
+     flex: 0 0 100%;
+     max-width: 100%;
+ }
+
+ .service {
+     width: 220%;
+    padding: 10px;
+	flex-wrap: wrap;
+}
+.service .content .box {
+    flex: 0 0 100%;
+    max-width: 220%;
+}
+.classes .content .class-items .item{
+    flex-wrap: wrap;
+    height: 100%;
+}
+.classes .content .class-items .item .item-text, 
+.classes .content .class-items .item .item-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contact {
+    flex-wrap: wrap;
+    width: 220%;
+}
+.contact .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
